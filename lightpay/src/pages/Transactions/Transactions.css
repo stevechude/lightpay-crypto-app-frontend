@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+.trans-screen-container {
+  padding-top: 0.5px;
+}
+
+.trans-container {
+  width: 360px;
+  height: 760px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  opacity: 100%;
+  background-color: #fff;
+  border: 1px solid #A3A5AC;
+}
+
+.wrap-trans {
+  width: 360px;
+  background: #fff;
+}
+
+.trans-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #4e515f;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.wrap-input-trans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  /* margin-bottom: 10px; */
+  z-index: 1;
+}
+
+.search-trans {
+  margin-left: 20px;
+  left: 0;
+  position: absolute;
+}
+
+.input-trans {
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 10px;
+  padding: 10px 10px 10px 45px;
+  margin: 5px 0 5px 3px;
+  width: 100%;
+  border: 1px solid #01051a1a;
+  outline: none;
+  background-color: #01051a1a;
+  display: block;
+  position: relative;
+  height: 55px;
+}
+
+.transactions {
+  margin-top: 20px;
+  color: white;
+  /* width: 312px; */
+  /* padding: 5px 0; */
+  /* height: 370px; */
+}
+
+.transactions h4 {
+  /* margin-top: 125px; */
+  margin-left: 8px;
+  margin-bottom: 14px;
+  color: #4e515f;
+  /* font-family: 'Outfit', sans-serif; */
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.trans-list {
+  overflow-y: scroll;
+  height: 470px;
+  /* background-color: #f1f1f1; */
+}
+
+.trans-coins {
+  display: flex;
+  margin-bottom: -40px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.trans-coins img {
+  margin-right: 160px;
+  margin-left: -8px;
+  margin-top: 12px;
+  transform: scale(0.5);
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column img {
+  transform: scale(0.5);
+}
+
+.column p {
+  margin-top: -77px;
+  margin-left: 33px;
+  color: #4e515f;
+  font-size: 14px;
+  /* 
+  font-weight: normal;
+   */
+}
+
+.debit-credit {
+  margin-right: 160px;
+  margin-left: -8px;
+  margin-top: 12px;
+}
+
+.trans-eth h6 {
+  margin-left: -150px;
+  margin-top: 13px;
+  font-family: "Outfit", sans-serif;
+  color: #01051a;
+  font-size: 9.3pt;
+}
+
+.trans-symbol h6 {
+  /* margin-bottom: -102px; */
+  color: #a3a5ac;
+  margin-left: -150px;
+  margin-top: 32px;
+  font-family: "Outfit", sans-serif;
+  font-size: 9pt;
+}
+
+.trans-price h6 {
+  font-family: "Outfit", sans-serif;
+  font-size: small;
+  color: #4e515f;
+  margin-top: 14px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+.dash-footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  margin-left: 12px;
+  margin-bottom: 15px;
+}

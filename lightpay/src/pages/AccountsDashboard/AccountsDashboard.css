@@ -1,0 +1,302 @@
+.container1 {
+  padding-top: 0.5px;
+}
+
+.acc-container {
+  width: 360px;
+  height: 760px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  opacity: 100%;
+  background-color: #fff;
+  border: 1px solid #A3A5AC;
+}
+
+.collective {
+  display: flex;
+  flex-direction: column;
+  /* width: 312px; */
+  margin-left: 10px;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 50px;
+}
+
+.user p {
+  margin-left: 40px;
+  margin-top: -77px;
+  font-family: "Outfit", sans-serif;
+  color: #01051a;
+  font-size: 10pt;
+}
+
+.logout p {
+  margin-left: 248px;
+  margin-top: -102px;
+  font-family: "Outfit", sans-serif;
+  color: #01051a;
+  font-size: 10pt;
+  cursor: pointer;
+}
+.logout-icon {
+  width: 19px;
+  height: 19px;
+  margin-top: -165px;
+  margin-left: 293px;
+  cursor: pointer;
+}
+
+.show-balance {
+  background-color: #01051a;
+  height: 140px;
+  width: 312px;
+  margin-top: -35px;
+  margin-right: 1px;
+  border-radius: 10px;
+}
+
+.balance {
+  margin-top: -15px;
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.total {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.retrieve {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  font-size: small;
+  /* font-weight: bold; */
+}
+
+.retrieve-parent {
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  /* font-size: small; */
+}
+
+.spinner {
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.connect-account {
+  height: 80px;
+  width: 312px;
+  background-color: #4e515f;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.connect-account img {
+  width: 12%;
+  height: 44%;
+  margin-top: 20px;
+  margin-left: 13px;
+  border-radius: 50%;
+}
+
+.first {
+  font-size: small;
+  font-weight: bold;
+  /* color: white; */
+}
+.second {
+  margin-top: -10px;
+  font-size: x-small;
+}
+
+.trust {
+  margin-top: -100px;
+  margin-left: 60px;
+  color: white;
+  padding: 5px 0;
+}
+
+.exchange {
+  margin-top: 120px;
+  color: white;
+}
+
+.exchange h4 {
+  margin-left: 8px;
+  margin-bottom: 14px;
+  color: #4e515f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.exchange-rates {
+  overflow-y: scroll;
+  height: 335px;
+  /* background-color: #f1f1f1; */
+}
+
+.coins {
+  display: flex;
+  margin-bottom: -40px;
+  padding: 0 10px;
+}
+
+.coins img {
+  margin-right: 160px;
+  margin-left: -8px;
+  margin-top: 12px;
+}
+
+.eth h6 {
+  margin-left: -145px;
+  margin-top: 13px;
+  font-family: "Outfit", sans-serif;
+  color: #01051a;
+  font-size: 11pt;
+}
+
+.symbol h6 {
+  /* margin-bottom: -102px; */
+  color: #a3a5ac;
+  margin-left: -145px;
+  margin-top: 32px;
+  font-family: "Outfit", sans-serif;
+  font-size: 9pt;
+}
+
+.price h6 {
+  font-family: "Outfit", sans-serif;
+  font-size: small;
+  color: #4e515f;
+  margin-top: 14px;
+  margin-left: 50px;
+  font-weight: 600;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home1 {
+  width: 19px;
+  height: 19px;
+  margin-left: -6px;
+}
+.home p {
+  font-size: x-small;
+  font-family: "Outfit", sans-serif;
+  margin-left: -10px;
+}
+.home p:hover {
+  color: red;
+}
+.home:hover {
+  cursor: pointer;
+}
+
+.transaction1 {
+  width: 19px;
+  height: 19px;
+  margin-left: 13px;
+}
+.transaction p {
+  font-size: x-small;
+  font-family: "Outfit", sans-serif;
+  margin-left: -5px;
+  /* color: #a3a5ac; */
+}
+.transaction p:hover {
+  color: red;
+}
+.transaction:hover {
+  cursor: pointer;
+}
+
+.transfer {
+  width: 19px;
+  height: 19px;
+  /* margin-left: 39px; */
+}
+.transfer p {
+  font-size: x-small;
+  font-family: "Outfit", sans-serif;
+  margin-left: -11px;
+  /* color: #a3a5ac; */
+}
+.transfer p:hover {
+  color: red;
+}
+.transfer:hover {
+  cursor: pointer;
+}
+
+.wallet1 {
+  width: 19px;
+  height: 19px;
+  margin-left: 7px;
+}
+.wallet p {
+  font-size: x-small;
+  font-family: "Outfit", sans-serif;
+  /* margin-left: 37px; */
+  /* color: #a3a5ac; */
+}
+.wallet p:hover {
+  color: red;
+}
+.wallet:hover {
+  cursor: pointer;
+}
+
+.dash-footer {
+  position: fixed;
+  top: 730px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .acc-container {
+    width: 360px;
+    height: 760px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    opacity: 100%;
+    background-color: #fff;
+    border: 1px solid #00000029;
+  }
+} */

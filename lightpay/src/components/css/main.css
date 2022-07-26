@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+.signin-form-container {
+  padding: 5px 0 39px 0;
+}
+
+.container-signin {
+  margin: auto;
+  width: 360px;
+  height: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  opacity: 100%;
+  background-color: #fff;
+  border: 1px solid #A3A5AC;
+}
+
+.wrap-signin {
+  width: 360px;
+  background: #fff;
+}
+
+.signin-form {
+  width: 100%;
+  position: relative;
+}
+
+.email,
+.password {
+  text-align: left;
+  width: 100%;
+  font-weight: normal;
+  font-size: 12px;
+  color: #4e515f;
+}
+
+.signin-form-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #4e515f;
+  padding-top: 60px;
+  padding-bottom: 39px;
+}
+
+.wrap-input-signin {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.input-signin {
+  /* font-size: 14px; */
+  /* font-weight: normal; */
+  border-radius: 10px;
+  padding: 12px;
+  margin: 8px 0 8px 3px;
+  width: 312px;
+  border: 1px solid #01051a1a;
+  outline: none;
+  background-color: #01051a1a;
+  display: block;
+  position: relative;
+  height: 55px;
+}
+
+.eye {
+  position: absolute;
+  margin-left: 90%;
+  margin-top: -45px;
+  cursor: pointer;
+}
+
+.text-right {
+  text-align: right;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #01051a;
+  padding-right: 6px;
+}
+
+.signin-btn {
+  font-weight: bold;
+  color: #fff;
+  width: 312px;
+  display: flex;
+  justify-content: center;
+  line-height: 2.2;
+  height: 56px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 50px 0 10px 0;
+  border: none;
+  outline: none;
+  background-color: #01051a;
+}
+
+.signup-btn {
+  font-weight: bold;
+  color: #01051a;
+  width: 312px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #01051a;
+  font-size: 15px;
+  margin: 10px 0;
+  outline: none;
+  background-color: #fff;
+  height: 56px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 360px;
+    height: 760px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    opacity: 100%;
+    background-color: #fff;
+    border: 1px solid rgb(143, 143, 143);
+  }
+}
